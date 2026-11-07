@@ -1,7 +1,7 @@
 # mvcc-kv-store
 
 A small in-process multi-version (MVCC) key-value store in Java, written for the blog post
-[Three places my MVCC design broke when I wrote the code](https://0mega28.github.io/blog/mvcc-design-breaks).
+[Three places my MVCC design broke when I wrote the code](https://0mega28.github.io/blog/concurrency/01-mvcc-design-breaks).
 
 - `put`, `get`, `delete`, per-key TTL, and an atomic `writeBatch` across keys
 - Readers take no locks and never see half of a batch

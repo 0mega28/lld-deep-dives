@@ -7,7 +7,7 @@ self-contained implementation that backs a post on [my blog](https://0mega28.git
 
 | Project | Topic | Blog post |
 | --- | --- | --- |
-| [mvcc-kv-store](mvcc-kv-store/) | Lock-free reads, atomic multi-key batches, and ordered commits in an in-process MVCC key-value store (Java) | [Three places my MVCC design broke when I wrote the code](https://0mega28.github.io/blog/mvcc-design-breaks) |
+| [mvcc-kv-store](mvcc-kv-store/) | Lock-free reads, atomic multi-key batches, and ordered commits in an in-process MVCC key-value store (Java) | [Three places my MVCC design broke when I wrote the code](https://0mega28.github.io/blog/concurrency/01-mvcc-design-breaks) |
 
 ## Layout
 
